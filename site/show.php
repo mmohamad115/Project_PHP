@@ -1,4 +1,6 @@
 <?php
 echo"<pre>";
-print_r($_GET);
+echo $_GET["Naam"];
+echo $_GET["Achternaam"];
+echo $_GET["Leeftijd"];
 echo "</pre>";
